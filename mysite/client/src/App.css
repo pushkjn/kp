@@ -1,0 +1,26 @@
+.App {
+  max-width: 860px;
+  margin: 40px auto;
+}
+button, input {
+  background: none;
+  border: 2px solid #494850;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #494850;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+  transition-duration: .5s;
+  margin-bottom: 1rem;
+}
+button:hover, input[type="submit"]:hover {
+  background: #4638c2;
+  color: #fff;
+}
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
